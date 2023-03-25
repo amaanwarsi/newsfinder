@@ -22,6 +22,10 @@ https://newsapi.org/pricing
 #### getParam(p)
 
 Returns the current parameters of URL.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `p` | `string` | 'c' for category and 's' for search query  |
+
 
 #### getData(code, category, search)
 
