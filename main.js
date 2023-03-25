@@ -23,7 +23,7 @@ const getNews = async () => {
 }
 
 const getData = async (code, category, search) => {
-  const api= 'a61b3972d77b44bc8c1ff8103e478499'
+  const api= '_ENTER_YOUR_API';
 
   try {
 
