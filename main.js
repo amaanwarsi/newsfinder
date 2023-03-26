@@ -23,7 +23,7 @@ const getNews = async () => {
 }
 
 const getData = async (code, category, search) => {
-  const api= '_ENTER_YOUR_API';
+  const api= 'a61b3972d77b44bc8c1ff8103e478499'
 
   try {
 
@@ -79,11 +79,6 @@ const getParam = (p) => {
 
 
 getNews()
-document.getElementById('toggleMode').addEventListener('click', () => {
-  if (document.documentElement.getAttribute('data-bs-theme') == 'dark') {
-    document.documentElement.setAttribute('data-bs-theme', 'light')
-  }
-  else {
-    document.documentElement.setAttribute('data-bs-theme', 'dark')
-  }
-})
+document.querySelector("#toggleMode").onclick=()=>{
+  document.querySelector("body").classList.toggle("dark");
+};
