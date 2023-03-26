@@ -1,5 +1,11 @@
 /* stylelint-disable selector-list-comma-newline-after */
-
+.dark{
+  background: #121212;
+  filter: invert(1) hue-rotate(180deg);
+}
+.dark iframe,.dark img,.dark html {
+  filter: invert(1) hue-rotate(180deg) brightness(105%) contrast(105%);
+  }
 .blog-header {
   border-bottom: 1px solid #e5e5e5;
 }
